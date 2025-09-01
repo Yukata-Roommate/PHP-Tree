@@ -1,0 +1,26 @@
+{
+    "name": "takeru-yamamoto/tree",
+    "description": "Show directory structure like tree command in PHP",
+    "version": "1.0.0",
+    "keywords": [
+        "takeru-yamamoto",
+        "php",
+        "package",
+        "tree",
+        "php-tree"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Takeru Yamamoto"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tree\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=8.3.0"
+    }
+}
