@@ -31,23 +31,23 @@ interface Config
     public function maxDepth(): int|null;
 
     /*----------------------------------------*
-     * Cache Size
+     * Path Cache Size
      *----------------------------------------*/
 
     /**
-     * Set cache size
+     * Set path cache size
      *
      * @param int $size
      * @return static
      */
-    public function setCacheSize(int $size): static;
+    public function setPathCacheSize(int $size): static;
 
     /**
-     * Get cache size
+     * Get path cache size
      *
      * @return int
      */
-    public function cacheSize(): int;
+    public function pathCacheSize(): int;
 
     /*----------------------------------------*
      * Regex Cache Size
